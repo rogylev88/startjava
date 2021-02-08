@@ -8,6 +8,7 @@ public class Variable {
         double videoCard = 2.5;
         char modem = 1;
         boolean btModul = true;
+
         System.out.println(core);
         System.out.println(ssd);
         System.out.println(motherBoard);
@@ -16,6 +17,5 @@ public class Variable {
         System.out.println(videoCard);
         System.out.println(modem);
         System.out.println(btModul);
-
     }
 }
