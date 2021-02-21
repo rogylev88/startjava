@@ -14,8 +14,8 @@ public class Cycle {
         int sum = 0;
         do {
             count++;
-            if ((count % 2) != 0){
-                sum = sum + count;
+            if ((count % 2) != 0) {
+                sum += count;
                 }
             } while (count < 20);
         System.out.println("11 + 13 + 15 + 17 + 19 = " + sum);

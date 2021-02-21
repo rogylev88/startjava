@@ -3,7 +3,6 @@ public class Calculator {
         char sign = '^';
         double b = 10;
         double c = 5;
-        double result = 1;
 
         if (sign == '+') {
             System.out.println(b + c);
@@ -14,12 +13,13 @@ public class Calculator {
         } else if (sign == '/') {
             System.out.println(b / c);
         } else if (sign == '^') {
+            double result = 1;
             for (int i = 1; i <= c; i++) {
                 result *= b;
-        }
+            }
             System.out.println(result);
         } else if (sign == '%') {
-            System.out.println(result = b % c);
+            System.out.println(b % c);
         }
     }
 }
