@@ -1,7 +1,7 @@
 public class Person {
 
     String name = "Human";
-    Boolean male = true;
+    boolean male = true;
     int age = 22;
     int height = 180;
     int weight = 70;
@@ -20,5 +20,4 @@ public class Person {
 
     void learnJava() {
     }
-
 }
