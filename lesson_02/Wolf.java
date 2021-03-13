@@ -6,11 +6,11 @@ public class Wolf {
     private int weight = 70;
     private String color = "grey";
 
-    public boolean getMale() {
+    public boolean isMale() {
         return male;
     }
 
-    void setMale(boolean male) {
+    public void setMale(boolean male) {
         this.male = male;
     }
 
@@ -18,7 +18,7 @@ public class Wolf {
         return nickName;
     }
 
-    void setNickName(String nickName) {
+    public void setNickName(String nickName) {
         this.nickName = nickName;
     }
 
@@ -26,11 +26,11 @@ public class Wolf {
         return age;
     }
 
-    void setAge(int age) {
+    public void setAge(int age) {
         if(age > 8) {
             System.out.println("Некорректный возраст");
         } else {
-        this.age = age;
+            this.age = age;
         }
     }
 
@@ -38,7 +38,7 @@ public class Wolf {
         return weight;
     }
 
-    void setWeight(int weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 
@@ -46,7 +46,7 @@ public class Wolf {
         return color;
     }
 
-    void setColor(String color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
